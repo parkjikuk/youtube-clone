@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/61f133bda6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header-container"></div>
+    <script src="script/common.js"></script>
+
+    <div class="app-container">
+        <nav class="sidebar-wrapper">
+            <li>
+                <i class="fa fa-house" style="color: #ffffff;"></i>
+                <span>홈</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-play" style="color: #ffffff;"></i>
+                <span>쇼츠</span>
+            </li>
+            <li>
+                <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                <span>구독</span>
+            </li>
+            <hr />
+
+            <li>
+                <i class="fa-solid fa-thumbs-up" style="color: #ffffff;"></i>
+                <span>좋아요 누른 영상</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                <span>구독 채널</span>
+            </li>
+            <li>
+                <i class="fa-regular fa-clock" style="color: #ffffff;"></i>
+                <span>시청 기록</span>
+            </li>
+        </nav>
+
+        <div class="content-wrapper">
+            <div class="categories">
+                <span>전체</span>
+                <span>실시간</span>
+                <span>게임</span>
+                <span>음악</span>
+                <span>뉴스</span>
+            </div>
+            <div class="videos" id="videos-container">
+                <script src="script/youtube_api.js"></script>              
+            </div>
+        </div>
+    </div>
+</body>
+</html>

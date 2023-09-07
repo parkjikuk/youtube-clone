@@ -12,3 +12,5 @@
     <h1>detail.html</h1>
     <img src="https://github.com/parkjikuk/youtube-clone/assets/58635833/6e0218e3-1b72-4cc2-a063-fd3dff9b0e00" />
   </p>
+
+  jira 연동
